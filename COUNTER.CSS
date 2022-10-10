@@ -1,0 +1,73 @@
+
+
+body {
+    background-color: whitesmoke;
+    border: 3px solid red;
+    }
+    
+    
+    
+    body::after {
+        content: 'CO-DICT';
+        position: fixed;
+        
+        top: 50px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: url('logo.png');
+        background-size: 800px 800px;
+        transform: perspective( 800px ) rotateX( -25deg );
+            opacity: 0.3;
+        pointer-events: none;
+      }
+    
+
+#up-arrow,#down-arrow{
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(13, 0, 255);
+  }
+  #total-count{
+    font-weight: 900;
+    font-size: 200px;
+    
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 3px solid green;
+  }
+
+  footer.footer {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+	margin-top: -15PX;
+    
+}
+content
+{
+	border: 2px;
+	border-color: azure;
+}
+
+p.copyright {
+    color: #fff;
+    line-height: 40px;
+    font-size: 1.2em;
+	margin-left:auto;
+    border: 5px solid rgb(0, 13, 255);
+}
+q.copy {
+    color: #fff;
+   margin-top: -45px;
+   font-size: large;
+   margin-right: 50px;
+	float: right;
+}
+
+
